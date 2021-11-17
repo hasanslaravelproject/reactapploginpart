@@ -11,7 +11,6 @@ import { Loading } from "../templates/Loading";
 /*
 Documentation on developing the Material-Table can be found at https://material-table.com/
 */
-
 const UsersTable = (props) => {
     const history = props.history;
     const [columns, setColumns] = useState(getColumns({}));
